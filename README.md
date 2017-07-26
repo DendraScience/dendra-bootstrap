@@ -11,7 +11,7 @@ Defines variables and build scripts for a custom build of Bootstrap 4.
 
 3. Make this project directory the current directory, i.e. `cd dendra-bootstrap`.
 
-4. Feel free to modify variables in `scss/_custom.scss` to customize the build. Be sure to commit any changes.
+4. Feel free to modify any `scss/_extend.*.scss` file to customize the build. Be sure to commit any changes.
 
 5. To perform the build, specify the location of the external Bootstrap source files and run the build script as shown:
 

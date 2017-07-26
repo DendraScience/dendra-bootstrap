@@ -3096,6 +3096,66 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.btn-dark {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark:focus, .btn-dark.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-dark.disabled, .btn-dark:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark:active, .btn-dark.active,
+.show > .btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: none;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-light {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: rgba(230, 230, 230, 0.2);
+  border-color: rgba(224, 224, 224, 0.2);
+}
+
+.btn-light:focus, .btn-light.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn-light.disabled, .btn-light:disabled {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-light:active, .btn-light.active,
+.show > .btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(230, 230, 230, 0.2);
+  background-image: none;
+  border-color: rgba(224, 224, 224, 0.2);
+}
+
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
